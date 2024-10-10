@@ -1,0 +1,348 @@
+.contanier {
+    display: flex;
+    margin: 0 auto;
+    width: 1500px;
+
+}
+
+.first_header {
+    background-image: url(image/bg-masthead.jpg);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    position: relative;
+
+}
+
+
+.first_header__flexbox {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.first_header__text_h {
+
+    text-align: center;
+}
+
+.first_header__text_ht {
+    font-size: 5.5rem;
+
+}
+
+.first_header__text_pt {
+    font-size: 1.75rem;
+    text-align: center;
+    margin: 5px;
+
+}
+
+.first_header__button {
+    height: 66px;
+    width: 170px;
+    margin-top: 15px;
+    border-radius: 8px;
+    background-color: #1D809F;
+    color: white;
+    font-size: 17px;
+
+}
+
+.first_header__button:hover {
+    background-color: #126680;
+}
+
+.first_header__right_box {
+    height: 50px;
+    width: 50px;
+    border-radius: 7px;
+    background-color: gray;
+   
+    position: sticky;
+    top: 20px;
+    right: 20px;
+    text-align: center;
+    padding-top: 18px;
+    position: absolute;
+
+
+}
+
+.first_header__right_box:hover {
+    background-color: black;
+
+}
+
+.first_header__right_box i {
+    color: rgb(255, 255, 255);
+    margin: auto;
+ 
+}
+
+.services_section {
+    width: 100%;
+    min-height: 500px;
+    background-color: rgb(29 128 159);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+
+.services_section__center_text_top {
+    color: rgb(236 184 7);
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.services_section__center_text_bottom {
+    color: white;
+    font-size: 35px;
+    text-align: center;
+}
+
+.services_section__center_boxs__texts {
+    height: 400px;
+    margin: 0 70px;
+    margin-bottom: 0px;
+    margin-top: 20px;
+
+}
+
+.services_section__center_boxs {
+    max-width: 1500px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.services_section__center_boxs div {
+    height: 130px;
+    width: 130px;
+    background-color: white;
+    border-radius: 50%;
+
+}
+
+.services_section__center_boxs h3 h5 {
+    display: block;
+    font-size: 30px;
+}
+
+.services_section__center_boxs__responsive,
+.services_section__center_boxs__redesigned,
+.services_section__center_boxs__favorited,
+.services_section__center_boxs__question {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+i {
+    font-size: 25px;
+    color: rgb(29 128 159);
+    ;
+}
+
+.What_we_offer_section {
+    max-width: 100%;
+    min-height: 400px;
+    background-color: white;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.What_we_offer_section__text_first {
+    font-size: 40px;
+    margin: 20px;
+    text-align: center;
+}
+
+.What_we_offer_section__text_secont {
+    font-size: 20px;
+    text-align: center;
+    color: gray;
+}
+
+.What_we_offer_section__button_box {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.What_we_offer_section__button {
+    width: 180px;
+    height: 66px;
+    background-color: #212529;
+    color: white;
+    border-radius: 8px;
+}
+
+.new_wep_section {
+    max-width: 100%;
+    height: 650px;
+    background-image: url(image/bg-callout.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.new_wep_section_text {
+    height: 135px;
+    width: 420px;
+    font-size: 50px;
+    text-align: center;
+
+}
+
+.new_wep_section_button {
+    height: 80px;
+    width: 200px;
+    border-radius: 8px;
+    background-color: #1D809F;
+    margin-top: 30px;
+    margin-left: 100px;
+    color: white;
+}
+
+.new_wep_section_button:hover {
+    background-color: #126680;
+}
+
+.recent_projects_section {
+
+    background-color: white;
+    display: flex;
+    justify-content: center;
+
+}
+
+.recent_projects_section_contanier_text_top {
+    color: rgb(236 184 7);
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 10px;
+    margin-top: 50px;
+}
+
+.recent_projects_section_contanier_text_bottom {
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+    text-align: center;
+}
+
+.recent_projects_section__carts {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.cart img {
+    height: 300px;
+    width: 450px;
+    background-color: rgb(37, 34, 31);
+
+}
+
+.click_me_section {
+    background-color: rgb(29 128 159);
+    min-height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.click_me_section__contanier{
+    margin-bottom: 40px;
+}
+
+.click_me_section_text {
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.click_me_section__button__contanier{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+}
+
+.buttons {
+    width: 130px;
+    height: 70px;
+    border-radius: 8px;
+
+    display: block;
+}
+.click_me_section__right{
+    background-color: #212529;
+    color: white;
+    
+}
+.click_me_section__right:hover{
+    background-color: darkslategray;
+    transition: 0.5s;
+}
+.click_me_section__left:hover
+{
+    background-color: lightslategray;
+    transition: 0.5s;
+}
+.map_section{
+    width: 100%;
+    height: auto;
+}
+iframe{
+    width: 100%;
+}
+.ended_page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    min-height: 300px;
+    width: 100%;
+    gap: 10px;
+}
+.icon{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: rgb(29 128 159) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.icon i{
+    font-size: 30px;
+    color: white;
+}
+.icon:hover{
+        background-color: #0e5165;
+        transition: 400ms;
+    }
